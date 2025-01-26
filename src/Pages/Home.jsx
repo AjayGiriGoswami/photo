@@ -16,9 +16,9 @@ const Home = () => {
           <nav>
             <div className="nav__header">
               <div className="nav__logo">
-                <a href="#">
+                <Link to ="/portfolio" >
                   <img src={logo} alt="logo" />
-                </a>
+                </Link>
               </div>
               <div className="nav__menu__btn" onClick={toggleMenu}>
                 <i className={isMenuOpen ? "ri-close-line" : "ri-menu-line"}></i>
