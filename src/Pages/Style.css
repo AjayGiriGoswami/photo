@@ -102,12 +102,20 @@
   padding: 8px 16px;
   border-radius: 6px;
   background: #3e2093;
+  width: 100%;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button input[type="button"]:hover {
-  background: #5029bc;
+
+.button{
+ 
+  width: 100%;
+  padding: 9px;
+  margin: 5px;
+  color: black;
+  font-size: larger;
 }
+
 @media (max-width: 950px) {
   .container {
     width: 90%;
